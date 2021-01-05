@@ -1,0 +1,23 @@
+<launch>
+    <arg name="robot_name"       default="/"/>
+    <arg name="ros_control_file" default="$(find ceasar_config)/config/ros_control/ros_control.yaml" />
+    
+    <group ns="$(arg robot_name)">
+        <rosparam file="$(arg ros_control_file)"                                       command="load"/>
+        <rosparam file="$(find ceasar_config)/config/ros_control/hardware.yaml"     command="load"/>
+        <rosparam file="$(find ceasar_config)/config/ros_control/joint_limits.yaml" command="load"/>
+        <rosparam file="$(find i2cpwm_board)/config/servos_calibration.yaml"           command="load"/>
+      
+        <node name="hardware_interface" pkg="ceasar_config" type="hardware_interface_node" output="screen"/>
+        <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
+            args="
+                joint_states_controller
+                joint_group_position_controller
+            "/>
+        
+        <!-- Motor driver -->
+        <node pkg="i2cpwm_board" name="i2cpwm_controller_node" type="i2cpwm_controller" output="screen"/>
+        
+        <!-- <node name="rqt_joint_trajectory_controller" pkg="rqt_joint_trajectory_controller" type="rqt_joint_trajectory_controller"/> -->
+    </group>
+</launch>

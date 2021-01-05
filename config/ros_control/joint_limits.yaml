@@ -1,0 +1,158 @@
+joint_limits:
+  front_left_shoulder:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  front_left_shoulder:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  front_left_leg:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  front_left_foot:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  front_right_shoulder:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  front_right_leg:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  front_right_foot:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  rear_left_shoulder:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  rear_left_leg:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  rear_left_foot:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  rear_right_shoulder:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  rear_right_leg:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+  rear_right_foot:
+    has_position_limits: false
+    # min_position: -1.0
+    # max_position: 1.5708
+    has_velocity_limits: true
+    max_velocity: 2.0
+    has_acceleration_limits: true
+    max_acceleration: 5.0
+    has_jerk_limits: true
+    max_jerk: 100.0
+    has_effort_limits: true
+    max_effort: 1.0
+    
